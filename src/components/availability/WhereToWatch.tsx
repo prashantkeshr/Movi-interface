@@ -49,12 +49,16 @@ function ProviderLogo({ name, color }: { name: string; color?: string }) {
 const PROVIDER_COLORS: Record<string, string> = {
   'netflix': '#E50914',
   'prime video': '#00A8E1',
+  'disney+': '#113CCF',
   'disney+ hotstar': '#1E4799',
   'apple tv+': '#444',
   'zee5': '#7B2D8B',
   'mubi': '#00A0E4',
   'youtube movies': '#FF0000',
   'jiocinema': '#4A0080',
+  'u-next': '#FF6600',
+  'stan': '#0063E5',
+  'wavve': '#3465FF',
 }
 
 export function WhereToWatch({ availability, market }: WhereToWatchProps) {

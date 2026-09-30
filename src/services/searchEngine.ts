@@ -55,9 +55,10 @@ const GENRE_MAP: Record<string, string> = {
 
 const PROVIDER_MAP: Record<string, string> = {
   netflix: 'Netflix', prime: 'Prime Video', amazon: 'Prime Video',
-  hotstar: 'Disney+ Hotstar', 'disney+': 'Disney+ Hotstar', disney: 'Disney+ Hotstar',
+  hotstar: 'Disney+ Hotstar', 'disney+': 'Disney+', disney: 'Disney+',
   apple: 'Apple TV+', mubi: 'MUBI', youtube: 'YouTube Movies',
   jio: 'JioCinema', zee5: 'ZEE5',
+  stan: 'Stan', wavve: 'Wavve', unext: 'U-NEXT', 'u-next': 'U-NEXT',
 }
 
 const LANGUAGE_MAP: Record<string, string> = {

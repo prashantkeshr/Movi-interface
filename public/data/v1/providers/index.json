@@ -19,10 +19,23 @@
     "logoPath": null,
     "website": "https://www.primevideo.com",
     "officialUrl": "https://www.primevideo.com",
-    "markets": ["IN", "US", "GB", "JP", "AU"],
+    "markets": ["IN", "US", "GB", "JP", "KR", "AU"],
     "availabilityCategories": ["subscription", "rent", "buy"],
     "description": "Amazon's streaming platform offering movies, originals, and digital purchases.",
     "color": "#00A8E1",
+    "lastUpdated": "2026-09-30T00:00:00.000Z"
+  },
+  {
+    "id": "provider_disney_plus",
+    "name": "Disney+",
+    "type": "streaming",
+    "logoPath": null,
+    "website": "https://www.disneyplus.com",
+    "officialUrl": "https://www.disneyplus.com",
+    "markets": ["US", "GB", "JP", "KR", "AU"],
+    "availabilityCategories": ["subscription"],
+    "description": "Disney's global streaming service with Marvel, Star Wars, Pixar and National Geographic.",
+    "color": "#113CCF",
     "lastUpdated": "2026-09-30T00:00:00.000Z"
   },
   {
@@ -58,9 +71,9 @@
     "logoPath": null,
     "website": "https://tv.apple.com",
     "officialUrl": "https://tv.apple.com",
-    "markets": ["IN", "US", "GB", "JP", "AU"],
+    "markets": ["IN", "US", "GB", "JP", "KR", "AU"],
     "availabilityCategories": ["subscription"],
-    "description": "Apple's original content streaming service.",
+    "description": "Apple's premium original content streaming service.",
     "color": "#555555",
     "lastUpdated": "2026-09-30T00:00:00.000Z"
   },
@@ -84,7 +97,7 @@
     "logoPath": null,
     "website": "https://mubi.com",
     "officialUrl": "https://mubi.com",
-    "markets": ["IN", "US", "GB"],
+    "markets": ["IN", "US", "GB", "JP", "KR", "AU"],
     "availabilityCategories": ["subscription"],
     "description": "Curated streaming platform for world cinema and art house films.",
     "color": "#00A0E4",
@@ -101,6 +114,45 @@
     "availabilityCategories": ["subscription", "free", "ad_supported"],
     "description": "Reliance Jio's streaming platform with Bollywood, Hollywood and regional content.",
     "color": "#4A0080",
+    "lastUpdated": "2026-09-30T00:00:00.000Z"
+  },
+  {
+    "id": "provider_unext",
+    "name": "U-NEXT",
+    "type": "streaming",
+    "logoPath": null,
+    "website": "https://video.unext.jp",
+    "officialUrl": "https://video.unext.jp",
+    "markets": ["JP"],
+    "availabilityCategories": ["subscription", "rent", "buy"],
+    "description": "Japan's leading streaming platform with the largest library of content.",
+    "color": "#FF6600",
+    "lastUpdated": "2026-09-30T00:00:00.000Z"
+  },
+  {
+    "id": "provider_stan",
+    "name": "Stan",
+    "type": "streaming",
+    "logoPath": null,
+    "website": "https://www.stan.com.au",
+    "officialUrl": "https://www.stan.com.au",
+    "markets": ["AU"],
+    "availabilityCategories": ["subscription"],
+    "description": "Australia's leading local streaming service with movies, TV shows and originals.",
+    "color": "#0063E5",
+    "lastUpdated": "2026-09-30T00:00:00.000Z"
+  },
+  {
+    "id": "provider_wavve",
+    "name": "Wavve",
+    "type": "streaming",
+    "logoPath": null,
+    "website": "https://www.wavve.com",
+    "officialUrl": "https://www.wavve.com",
+    "markets": ["KR"],
+    "availabilityCategories": ["subscription", "rent", "buy"],
+    "description": "South Korea's major streaming platform for Korean and international content.",
+    "color": "#3465FF",
     "lastUpdated": "2026-09-30T00:00:00.000Z"
   }
 ]

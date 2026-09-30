@@ -4,9 +4,9 @@
   "generatedAt": "2026-09-30T00:00:00.000Z",
   "contentCount": 15,
   "peopleCount": 24,
-  "providerCount": 8,
+  "providerCount": 12,
   "marketCount": 6,
-  "availabilityCount": 42,
+  "availabilityCount": 86,
   "datasets": {
     "content_index": {
       "path": "/data/v1/search/content-index.json",
@@ -15,7 +15,7 @@
     },
     "providers": {
       "path": "/data/v1/providers/index.json",
-      "count": 8,
+      "count": 12,
       "lastUpdated": "2026-09-30T00:00:00.000Z"
     },
     "markets": {
@@ -55,7 +55,28 @@
     "GB": {
       "market": "GB",
       "path": "/data/v1/availability/GB.json",
-      "contentCount": 12,
+      "contentCount": 15,
+      "providerCount": 6,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    },
+    "JP": {
+      "market": "JP",
+      "path": "/data/v1/availability/JP.json",
+      "contentCount": 15,
+      "providerCount": 5,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    },
+    "KR": {
+      "market": "KR",
+      "path": "/data/v1/availability/KR.json",
+      "contentCount": 15,
+      "providerCount": 4,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    },
+    "AU": {
+      "market": "AU",
+      "path": "/data/v1/availability/AU.json",
+      "contentCount": 15,
       "providerCount": 5,
       "lastUpdated": "2026-09-30T00:00:00.000Z"
     }
@@ -63,5 +84,5 @@
   "supportedMarkets": ["IN", "US", "GB", "JP", "KR", "AU"],
   "supportedLanguages": ["en", "hi", "te", "ta", "ja", "ko", "fr", "de"],
   "lastContentUpdate": "2026-09-30T00:00:00.000Z",
-  "lastAvailabilityUpdate": "2026-09-25T00:00:00.000Z"
+  "lastAvailabilityUpdate": "2026-09-30T00:00:00.000Z"
 }
