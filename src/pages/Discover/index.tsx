@@ -6,6 +6,7 @@ import { ContentCard } from '@/components/content/ContentCard'
 import { getTopContent, getByGenre } from '@/services/searchEngine'
 import { loadCollectionIndex } from '@/services/dataLoader'
 import type { CollectionSummary } from '@/services/intelligenceEngine'
+import { useDocumentMeta } from '@/hooks/useDocumentMeta'
 
 const GENRES = [
   { name: 'Action', emoji: '💥' },
@@ -36,6 +37,11 @@ export function DiscoverPage() {
   const [actionItems, setActionItems] = useState<SearchIndexEntry[]>([])
   const [dramaItems, setDramaItems] = useState<SearchIndexEntry[]>([])
   const [collections, setCollections] = useState<CollectionSummary[]>([])
+
+  useDocumentMeta({
+    title: 'Discover',
+    description: 'Explore top films by genre, market, and curated collections on MOVI.',
+  })
 
   useEffect(() => {
     setTop(getTopContent(12))

@@ -7,6 +7,7 @@ import { Skeleton } from '@/components/ui/Skeleton'
 import type { SearchIndexEntry } from '@/types'
 import { search, getTopContent } from '@/services/searchEngine'
 import { usePreferences } from '@/hooks/usePreferences'
+import { useDocumentMeta } from '@/hooks/useDocumentMeta'
 
 const CONTENT_TYPES = [
   { value: 'movie', label: 'Movies' },
@@ -47,6 +48,11 @@ export function SearchPage() {
   const navigate = useNavigate()
   const [results, setResults] = useState<SearchIndexEntry[]>([])
   const [loading, setLoading] = useState(false)
+
+  useDocumentMeta({
+    title: 'Search',
+    description: 'Search 15 films across 6 global markets on MOVI.',
+  })
   const [filtersOpen, setFiltersOpen] = useState(false)
   const { prefs, addRecentSearch } = usePreferences()
 

@@ -7,6 +7,7 @@ import { getTopContent } from '@/services/searchEngine'
 import { StarRating } from '@/components/ui/StarRating'
 import { Badge } from '@/components/ui/Badge'
 import { Skeleton } from '@/components/ui/Skeleton'
+import { useDocumentMeta } from '@/hooks/useDocumentMeta'
 
 const ROLE_LABEL: Record<string, string> = {
   director: 'Director',
@@ -27,6 +28,24 @@ export function PersonPage() {
 
   const allContent = getTopContent(100)
   const contentMap = Object.fromEntries(allContent.map((e) => [e.id, e]))
+
+  useDocumentMeta({
+    title: person ? person.name : 'Person',
+    description: person?.biography
+      ? person.biography.slice(0, 160)
+      : `Filmography and streaming availability for ${person?.name ?? 'this person'} on MOVI.`,
+    jsonLd: person
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'Person',
+          name: person.name,
+          url: `https://movi.dhurta.org/person/${person.id}`,
+          ...(person.birthday && { birthDate: person.birthday }),
+          ...(person.birthplace && { birthPlace: person.birthplace }),
+          ...(person.biography && { description: person.biography }),
+        }
+      : null,
+  })
 
   useEffect(() => {
     if (!id) return

@@ -8,6 +8,7 @@ import { formatRuntime } from '@/services/intelligenceEngine'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { Badge } from '@/components/ui/Badge'
 import { StarRating } from '@/components/ui/StarRating'
+import { useDocumentMeta } from '@/hooks/useDocumentMeta'
 
 async function fetchCollection(id: string): Promise<CollectionData> {
   const res = await fetch(`/data/v1/collections/${id}.json`)
@@ -22,6 +23,30 @@ export function CollectionPage() {
   const [partContent, setPartContent] = useState<Record<string, Content>>({})
   const [loading, setLoading] = useState(true)
   const [imgError, setImgError] = useState(false)
+
+  useDocumentMeta({
+    title: collection ? `${collection.name} Collection` : 'Collection',
+    description: collection?.description ?? `A curated collection on MOVI.`,
+    image: heroContent?.backdropPath
+      ? `https://image.tmdb.org/t/p/w1280${heroContent.backdropPath}`
+      : undefined,
+    jsonLd: collection
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: collection.name,
+          description: collection.description,
+          url: `https://movi.dhurta.org/collection/${collection.id}`,
+          numberOfItems: collection.contentCount,
+          itemListElement: collection.parts.map((p, i) => ({
+            '@type': 'Movie',
+            position: i + 1,
+            name: p.title,
+            url: `https://movi.dhurta.org/movie/${p.contentId}`,
+          })),
+        }
+      : null,
+  })
 
   useEffect(() => {
     if (!id) return

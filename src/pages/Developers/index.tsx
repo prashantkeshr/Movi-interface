@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Code, Database, FileJson, Globe, Zap, ChevronRight, Copy, Check } from 'lucide-react'
+import { useDocumentMeta } from '@/hooks/useDocumentMeta'
 
 const ENDPOINTS = [
   { method: 'GET', path: '/data/manifest.json', desc: 'Registry manifest with counts and dataset info' },
@@ -66,6 +67,12 @@ export function DevelopersPage() {
   const [activeEndpoint, setActiveEndpoint] = useState(ENDPOINTS[2])
   const [response, setResponse] = useState('')
   const [loading, setLoading] = useState(false)
+
+  useDocumentMeta({
+    title: 'Developer API',
+    description:
+      'Explore the MOVI static JSON API. Zero auth, zero rate limits — open access to global streaming availability data.',
+  })
 
   const tryEndpoint = async (path: string) => {
     setLoading(true)

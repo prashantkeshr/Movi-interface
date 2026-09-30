@@ -7,6 +7,7 @@ import type { SearchIndexEntry, DataManifest } from '@/types'
 import { getTopContent, getFeaturedContent, getByGenre } from '@/services/searchEngine'
 import { loadManifest } from '@/services/dataLoader'
 import { usePreferences } from '@/hooks/usePreferences'
+import { useDocumentMeta } from '@/hooks/useDocumentMeta'
 
 const GENRES_TO_SHOW = ['Action', 'Drama', 'Science Fiction', 'Animation', 'Thriller']
 
@@ -42,6 +43,12 @@ export function HomePage() {
   const [genreSections, setGenreSections] = useState<{ genre: string; items: SearchIndexEntry[] }[]>([])
   const [manifest, setManifest] = useState<DataManifest | null>(null)
   const [imgError, setImgError] = useState(false)
+
+  useDocumentMeta({
+    title: 'MOVI — Global Content Intelligence & Streaming Registry',
+    description:
+      'Discover where to stream 15 top films across 6 global markets. MOVI — your global streaming availability registry.',
+  })
   const { prefs } = usePreferences()
   const navigate = useNavigate()
 

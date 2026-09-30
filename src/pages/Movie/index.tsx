@@ -17,6 +17,7 @@ import { Badge } from '@/components/ui/Badge'
 import { StarRating } from '@/components/ui/StarRating'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { usePreferences } from '@/hooks/usePreferences'
+import { useDocumentMeta } from '@/hooks/useDocumentMeta'
 
 const LANG_NAMES: Record<string, string> = {
   en: 'English', hi: 'Hindi', te: 'Telugu', ta: 'Tamil',
@@ -83,6 +84,42 @@ export function MoviePage() {
   const trailer = content?.trailers?.[0]
   const primaryRating = content?.ratings?.[0]
   const contentCollections = content ? getContentCollections(content.id, collections) : []
+
+  useDocumentMeta({
+    title: content ? `${content.title} (${content.year})` : 'Loading…',
+    description: content?.overview ?? undefined,
+    image: content?.posterPath
+      ? `https://image.tmdb.org/t/p/w500${content.posterPath}`
+      : undefined,
+    type: 'video.movie',
+    jsonLd: content
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'Movie',
+          name: content.title,
+          description: content.overview,
+          datePublished: String(content.year),
+          url: `https://movi.dhurta.org/movie/${content.id}`,
+          image: content.posterPath
+            ? `https://image.tmdb.org/t/p/w500${content.posterPath}`
+            : undefined,
+          ...(primaryRating && {
+            aggregateRating: {
+              '@type': 'AggregateRating',
+              ratingValue: primaryRating.value,
+              bestRating: primaryRating.scale ?? 10,
+            },
+          }),
+          ...(content.directors?.length && {
+            director: content.directors.map((d) => ({
+              '@type': 'Person',
+              name: resolvePersonName(d),
+            })),
+          }),
+          genre: content.genres,
+        }
+      : null,
+  })
 
   if (loading) {
     return (
