@@ -1,0 +1,67 @@
+[
+  {
+    "id": "col_nolan",
+    "name": "Christopher Nolan Films",
+    "slug": "nolan",
+    "tagline": "Reality bends, minds break, genius endures.",
+    "description": "Four genre-defining works from Christopher Nolan — each a meticulous exploration of time, identity, and the limits of the human mind.",
+    "color": "#E8B84B",
+    "contentCount": 4,
+    "averageRating": 8.6,
+    "totalRuntime": 649,
+    "tags": ["director", "mind-bending", "acclaimed", "IMAX"],
+    "featuredPosterPath": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+  },
+  {
+    "id": "col_south_india",
+    "name": "South Indian Epics",
+    "slug": "south-india",
+    "tagline": "Scale, spectacle, and soul from the subcontinent.",
+    "description": "The most ambitious productions from South Indian cinema — Baahubali, RRR, and KGF — that redefined what Indian films could achieve on a global stage.",
+    "color": "#FF6B35",
+    "contentCount": 3,
+    "averageRating": 8.1,
+    "totalRuntime": 509,
+    "tags": ["Telugu", "Kannada", "epic", "action", "Indian cinema"],
+    "featuredPosterPath": "https://image.tmdb.org/t/p/w500/nEufeZlyAOLqO2brrs0yeF1lgXO.jpg"
+  },
+  {
+    "id": "col_bollywood",
+    "name": "Bollywood Powerhouses",
+    "slug": "bollywood",
+    "tagline": "Heart, hustle, and Hindustani heart.",
+    "description": "Two landmark Hindi films starring Aamir Khan that captured the world's imagination with their universal stories of ambition, family, and the human spirit.",
+    "color": "#FF4757",
+    "contentCount": 2,
+    "averageRating": 8.4,
+    "totalRuntime": 331,
+    "tags": ["Hindi", "Bollywood", "Aamir Khan", "drama"],
+    "featuredPosterPath": "https://image.tmdb.org/t/p/w500/66A9MqXOyVFCssoloscw79z8Tew.jpg"
+  },
+  {
+    "id": "col_marvel_disney",
+    "name": "Marvel & Disney Spectacles",
+    "slug": "marvel-disney",
+    "tagline": "Worlds beyond imagination.",
+    "description": "Marvel's cinematic crown jewel, the animated revolution, and James Cameron's world-record blockbuster — all streaming on Disney+.",
+    "color": "#113CCF",
+    "contentCount": 3,
+    "averageRating": 8.2,
+    "totalRuntime": 460,
+    "tags": ["Marvel", "Disney", "superhero", "blockbuster", "animation"],
+    "featuredPosterPath": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg"
+  },
+  {
+    "id": "col_world_cinema",
+    "name": "World Cinema Masterpieces",
+    "slug": "world-cinema",
+    "tagline": "Stories that transcend borders.",
+    "description": "Three celebrated films from Japan and South Korea — plus an extraordinary nature documentary — that proved world cinema speaks a universal language.",
+    "color": "#2ED573",
+    "contentCount": 3,
+    "averageRating": 8.5,
+    "totalRuntime": 342,
+    "tags": ["Japanese", "Korean", "Oscar winner", "art house", "documentary"],
+    "featuredPosterPath": "https://image.tmdb.org/t/p/w500/39wmItIWsg5siqXU7nm23Dj7GEC.jpg"
+  }
+]

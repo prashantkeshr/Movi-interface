@@ -1,0 +1,48 @@
+{
+  "id": "col_nolan",
+  "name": "Christopher Nolan Films",
+  "slug": "nolan",
+  "tagline": "Reality bends, minds break, genius endures.",
+  "description": "Four genre-defining works from Christopher Nolan — each a meticulous exploration of time, identity, and the limits of the human mind. From the criminal dreamscapes of Inception to the cosmic loneliness of Interstellar, the anarchic chaos of The Dark Knight and the atomic weight of Oppenheimer, Nolan has consistently redefined what blockbuster cinema can be.",
+  "heroContentId": "content_001",
+  "color": "#E8B84B",
+  "tags": ["director", "mind-bending", "acclaimed", "IMAX", "Christopher Nolan"],
+  "curator": "MOVI Editorial",
+  "contentCount": 4,
+  "averageRating": 8.6,
+  "totalRuntime": 649,
+  "parts": [
+    {
+      "contentId": "content_008",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "order": 1,
+      "posterPath": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "rating": 9.0
+    },
+    {
+      "contentId": "content_001",
+      "title": "Inception",
+      "year": 2010,
+      "order": 2,
+      "posterPath": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+      "rating": 8.4
+    },
+    {
+      "contentId": "content_002",
+      "title": "Interstellar",
+      "year": 2014,
+      "order": 3,
+      "posterPath": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "rating": 8.7
+    },
+    {
+      "contentId": "content_013",
+      "title": "Oppenheimer",
+      "year": 2023,
+      "order": 4,
+      "posterPath": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "rating": 8.3
+    }
+  ]
+}

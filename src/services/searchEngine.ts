@@ -208,3 +208,12 @@ export function getSuggestions(query: string): SearchIndexEntry[] {
   if (!fuse || query.length < 2) return []
   return fuse.search(normalize(query), { limit: 6 }).map((r) => r.item)
 }
+
+export function getPersonById(id: string): SearchIndexEntry | undefined {
+  return indexData.find((e) => e.id === id && e.type === 'person')
+}
+
+export function resolvePersonName(id: string): string {
+  if (!id.startsWith('person_')) return id
+  return getPersonById(id)?.title ?? id
+}

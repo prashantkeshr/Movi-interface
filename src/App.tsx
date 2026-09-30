@@ -12,6 +12,8 @@ const SearchPage = lazy(() => import('@/pages/Search').then((m) => ({ default: m
 const MoviePage = lazy(() => import('@/pages/Movie').then((m) => ({ default: m.MoviePage })))
 const DiscoverPage = lazy(() => import('@/pages/Discover').then((m) => ({ default: m.DiscoverPage })))
 const DevelopersPage = lazy(() => import('@/pages/Developers').then((m) => ({ default: m.DevelopersPage })))
+const CollectionPage = lazy(() => import('@/pages/Collection').then((m) => ({ default: m.CollectionPage })))
+const PersonPage = lazy(() => import('@/pages/Person').then((m) => ({ default: m.PersonPage })))
 
 function PageLoader() {
   return (
@@ -93,6 +95,8 @@ function AppShell() {
           <Route path="/search" element={<SearchPage />} />
           <Route path="/discover" element={<DiscoverPage />} />
           <Route path="/movie/:id" element={<MoviePage />} />
+          <Route path="/collection/:id" element={<CollectionPage />} />
+          <Route path="/person/:id" element={<PersonPage />} />
           <Route path="/developers" element={<DevelopersPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

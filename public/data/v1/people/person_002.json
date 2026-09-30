@@ -1,0 +1,17 @@
+{
+  "id": "person_002",
+  "name": "Leonardo DiCaprio",
+  "aliases": ["Leo DiCaprio", "DiCaprio", "Leonardo"],
+  "biography": "Leonardo Wilhelm DiCaprio is an American actor and film producer who began his career in the late 1980s. Born in Los Angeles in 1974, he rose to prominence as a teenager playing troubled youth in films like What's Eating Gilbert Grape (1993), for which he received his first Academy Award nomination. His collaborations with Martin Scorsese and Christopher Nolan have produced some of cinema's most memorable performances. He won the Academy Award for Best Actor for The Revenant (2015) after five nominations.",
+  "birthday": "1974-11-11",
+  "birthplace": "Los Angeles, California, USA",
+  "knownFor": ["actor", "producer"],
+  "roles": [
+    { "contentId": "content_001", "contentTitle": "Inception", "role": "actor", "character": "Dom Cobb", "year": 2010 }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "nm0000138", "url": "https://www.imdb.com/name/nm0000138/" },
+    { "source": "tmdb", "id": "6193" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

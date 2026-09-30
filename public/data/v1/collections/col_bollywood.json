@@ -1,0 +1,32 @@
+{
+  "id": "col_bollywood",
+  "name": "Bollywood Powerhouses",
+  "slug": "bollywood",
+  "tagline": "Heart, hustle, and Hindustani heart.",
+  "description": "Two landmark Hindi films starring Aamir Khan that captured the world's imagination with their universal stories of ambition, family, and the human spirit. 3 Idiots remains one of Bollywood's highest-rated films ever, while Dangal brought the story of Mahavir Singh Phogat to audiences in 70+ countries.",
+  "heroContentId": "content_007",
+  "color": "#FF4757",
+  "tags": ["Hindi", "Bollywood", "Aamir Khan", "drama", "comedy", "biography"],
+  "curator": "MOVI Editorial",
+  "contentCount": 2,
+  "averageRating": 8.4,
+  "totalRuntime": 331,
+  "parts": [
+    {
+      "contentId": "content_007",
+      "title": "3 Idiots",
+      "year": 2009,
+      "order": 1,
+      "posterPath": "https://image.tmdb.org/t/p/w500/66A9MqXOyVFCssoloscw79z8Tew.jpg",
+      "rating": 8.4
+    },
+    {
+      "contentId": "content_009",
+      "title": "Dangal",
+      "year": 2016,
+      "order": 2,
+      "posterPath": "https://image.tmdb.org/t/p/w500/wePBnOgpFGLAJnmehT2DGGfvNiB.jpg",
+      "rating": 8.4
+    }
+  ]
+}

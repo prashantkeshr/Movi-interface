@@ -27,6 +27,11 @@
       "path": "/data/v1/genres.json",
       "count": 20,
       "lastUpdated": "2026-09-30T00:00:00.000Z"
+    },
+    "collections": {
+      "path": "/data/v1/collections/index.json",
+      "count": 5,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
     }
   },
   "searchIndexes": {

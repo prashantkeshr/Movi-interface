@@ -1,0 +1,18 @@
+{
+  "id": "person_019",
+  "name": "S. S. Rajamouli",
+  "aliases": ["Rajamouli", "SSR", "S.S. Rajamouli", "Koduri Srisaila Sri Rajamouli"],
+  "biography": "S. S. Rajamouli is an Indian filmmaker widely regarded as one of the greatest directors in Indian cinema history. Born in Raichur, Karnataka in 1973, he grew up immersed in filmmaking through his father, screenwriter V. V. Vijayendra Prasad. He is best known for the Baahubali franchise and RRR, which became India's highest-grossing films and earned unprecedented international acclaim. RRR won the Golden Globe for Best Non-English Language Song and an Academy Award nomination, cementing Rajamouli's global reputation.",
+  "birthday": "1973-10-10",
+  "birthplace": "Raichur, Karnataka, India",
+  "knownFor": ["director"],
+  "roles": [
+    { "contentId": "content_005", "contentTitle": "Baahubali: The Beginning", "role": "director", "year": 2015 },
+    { "contentId": "content_006", "contentTitle": "RRR", "role": "director", "year": 2022 }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "nm0706804", "url": "https://www.imdb.com/name/nm0706804/" },
+    { "source": "tmdb", "id": "67327" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

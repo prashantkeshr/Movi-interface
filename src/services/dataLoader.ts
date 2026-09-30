@@ -8,6 +8,7 @@ import type {
   Market,
   Person,
 } from '@/types'
+import type { CollectionData, CollectionSummary } from '@/services/intelligenceEngine'
 
 const BASE = '/data'
 const cache = new Map<string, unknown>()
@@ -51,6 +52,18 @@ export async function loadAvailability(market: string): Promise<AvailabilityEntr
 
 export async function loadPerson(id: string): Promise<Person> {
   return fetchJSON<Person>(`${BASE}/v1/people/${id}.json`)
+}
+
+export async function loadCollectionIndex(): Promise<CollectionSummary[]> {
+  try {
+    return await fetchJSON<CollectionSummary[]>(`${BASE}/v1/collections/index.json`)
+  } catch {
+    return []
+  }
+}
+
+export async function loadCollection(id: string): Promise<CollectionData> {
+  return fetchJSON<CollectionData>(`${BASE}/v1/collections/${id}.json`)
 }
 
 export function getAvailabilityForContent(

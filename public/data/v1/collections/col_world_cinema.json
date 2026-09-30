@@ -1,0 +1,40 @@
+{
+  "id": "col_world_cinema",
+  "name": "World Cinema Masterpieces",
+  "slug": "world-cinema",
+  "tagline": "Stories that transcend borders.",
+  "description": "Three celebrated films from Japan and South Korea — plus an extraordinary nature documentary from South Africa — that proved world cinema speaks a universal language. Between them, they hold two Academy Awards for Best Picture and Best International Film, and a total of six Oscar nominations.",
+  "heroContentId": "content_003",
+  "color": "#2ED573",
+  "tags": ["Japanese", "Korean", "South African", "Oscar winner", "art house", "documentary", "anime"],
+  "curator": "MOVI Editorial",
+  "contentCount": 3,
+  "averageRating": 8.5,
+  "totalRuntime": 342,
+  "parts": [
+    {
+      "contentId": "content_004",
+      "title": "Spirited Away",
+      "year": 2001,
+      "order": 1,
+      "posterPath": "https://image.tmdb.org/t/p/w500/39wmItIWsg5siqXU7nm23Dj7GEC.jpg",
+      "rating": 9.0
+    },
+    {
+      "contentId": "content_003",
+      "title": "Parasite",
+      "year": 2019,
+      "order": 2,
+      "posterPath": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "rating": 8.5
+    },
+    {
+      "contentId": "content_015",
+      "title": "My Octopus Teacher",
+      "year": 2020,
+      "order": 3,
+      "posterPath": "https://image.tmdb.org/t/p/w500/tnLMDlI6VBxQTW8hcJjCKnIVFzI.jpg",
+      "rating": 8.1
+    }
+  ]
+}

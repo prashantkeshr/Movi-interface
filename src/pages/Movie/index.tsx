@@ -6,8 +6,10 @@ import {
   Info, Film
 } from 'lucide-react'
 import type { Content, AvailabilityEntry } from '@/types'
-import { loadContent, loadAvailability, getAvailabilityForContent } from '@/services/dataLoader'
-import { getTopContent } from '@/services/searchEngine'
+import { loadContent, loadAvailability, getAvailabilityForContent, loadCollectionIndex } from '@/services/dataLoader'
+import { getTopContent, resolvePersonName } from '@/services/searchEngine'
+import { getRelatedContent, getContentCollections } from '@/services/intelligenceEngine'
+import type { CollectionData, CollectionSummary } from '@/services/intelligenceEngine'
 import { WhereToWatch } from '@/components/availability/WhereToWatch'
 import { ContentRow } from '@/components/content/ContentRow'
 import { Modal } from '@/components/ui/Modal'
@@ -32,6 +34,7 @@ export function MoviePage() {
   const { id } = useParams<{ id: string }>()
   const [content, setContent] = useState<Content | null>(null)
   const [availability, setAvailability] = useState<AvailabilityEntry[]>([])
+  const [collections, setCollections] = useState<CollectionData[]>([])
   const [loading, setLoading] = useState(true)
   const [trailerOpen, setTrailerOpen] = useState(false)
   const [activeTab, setActiveTab] = useState<'overview' | 'availability' | 'cast' | 'details'>('overview')
@@ -40,7 +43,11 @@ export function MoviePage() {
 
   const inWatchlist = prefs.watchlist.includes(id ?? '')
   const isFavorite = prefs.favorites.includes(id ?? '')
-  const related = getTopContent(8).filter((i) => i.id !== id)
+
+  const allContent = getTopContent(20)
+  const related = content
+    ? getRelatedContent(content, allContent, collections, 8)
+    : allContent.filter((i) => i.id !== id).slice(0, 8)
 
   useEffect(() => {
     if (!id) return
@@ -53,11 +60,20 @@ export function MoviePage() {
     Promise.all([
       loadContent(id),
       loadAvailability(prefs.market),
+      loadCollectionIndex(),
     ])
-      .then(([c, avail]) => {
+      .then(([c, avail, colIndex]) => {
         setContent(c)
         setAvailability(getAvailabilityForContent(avail, id))
         addRecentlyViewed(id)
+        // Fetch full collection data to enable intelligent related content
+        Promise.all(
+          (colIndex as unknown as CollectionData[])
+            .filter((col) => col.parts?.some((p) => p.contentId === id))
+            .map((col) =>
+              fetch(`/data/v1/collections/${col.id}.json`).then((r) => r.json() as Promise<CollectionData>)
+            )
+        ).then(setCollections).catch(() => {})
       })
       .catch((e) => console.error('Failed to load content:', e))
       .finally(() => setLoading(false))
@@ -65,8 +81,8 @@ export function MoviePage() {
 
   const imdbUrl = content?.externalIds?.find((e) => e.source === 'imdb')?.url
   const trailer = content?.trailers?.[0]
-  const directors = content?.cast ? [] : []
   const primaryRating = content?.ratings?.[0]
+  const contentCollections = content ? getContentCollections(content.id, collections) : []
 
   if (loading) {
     return (
@@ -179,6 +195,21 @@ export function MoviePage() {
               {content.franchise && (
                 <Badge variant="muted" size="sm">Franchise</Badge>
               )}
+              {contentCollections.map((col) => (
+                <Link
+                  key={col.id}
+                  to={`/collection/${col.id}`}
+                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full
+                    text-[10px] font-semibold border transition-colors hover:opacity-80"
+                  style={{
+                    color: col.color ?? 'var(--accent)',
+                    borderColor: `${col.color ?? 'var(--accent)'}40`,
+                    background: `${col.color ?? 'var(--accent)'}12`,
+                  }}
+                >
+                  {col.name}
+                </Link>
+              ))}
             </div>
 
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[var(--text-primary)] leading-tight">
@@ -325,8 +356,15 @@ export function MoviePage() {
                   <h3 className="text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wide mb-2">Director</h3>
                   <div className="flex flex-wrap gap-2">
                     {content.directors.map((d) => (
-                      <span key={d} className="text-sm text-[var(--text-secondary)] bg-[var(--bg-card)]
-                        px-2.5 py-1 rounded-[var(--radius)] border border-[var(--border)]">{d}</span>
+                      <Link
+                        key={d}
+                        to={`/person/${d}`}
+                        className="text-sm text-[var(--text-secondary)] bg-[var(--bg-card)]
+                          px-2.5 py-1 rounded-[var(--radius)] border border-[var(--border)]
+                          hover:border-[var(--accent)]/50 hover:text-[var(--accent)] transition-colors"
+                      >
+                        {resolvePersonName(d)}
+                      </Link>
                     ))}
                   </div>
                 </div>

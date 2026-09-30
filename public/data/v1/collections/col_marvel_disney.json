@@ -1,0 +1,40 @@
+{
+  "id": "col_marvel_disney",
+  "name": "Marvel & Disney Spectacles",
+  "slug": "marvel-disney",
+  "tagline": "Worlds beyond imagination.",
+  "description": "Marvel's cinematic crown jewel, the animated revolution that changed how Spider-Man is seen forever, and James Cameron's world-record blockbuster — all available on Disney+. These three films collectively grossed over $7 billion worldwide and redefined audience expectations for spectacle cinema.",
+  "heroContentId": "content_010",
+  "color": "#113CCF",
+  "tags": ["Marvel", "Disney", "superhero", "blockbuster", "animation", "MCU"],
+  "curator": "MOVI Editorial",
+  "contentCount": 3,
+  "averageRating": 8.2,
+  "totalRuntime": 460,
+  "parts": [
+    {
+      "contentId": "content_012",
+      "title": "Avatar",
+      "year": 2009,
+      "order": 1,
+      "posterPath": "https://image.tmdb.org/t/p/w500/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",
+      "rating": 7.9
+    },
+    {
+      "contentId": "content_014",
+      "title": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "order": 2,
+      "posterPath": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+      "rating": 8.4
+    },
+    {
+      "contentId": "content_010",
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "order": 3,
+      "posterPath": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "rating": 8.4
+    }
+  ]
+}

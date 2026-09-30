@@ -1,0 +1,20 @@
+{
+  "id": "person_001",
+  "name": "Christopher Nolan",
+  "aliases": ["Chris Nolan", "Nolan"],
+  "biography": "Christopher Edward Nolan CBE is a British-American filmmaker known for making large-scale, high-concept films that challenge conventional narrative structure. Born in London in 1970, he began his career directing low-budget independent films before breaking through with Memento (2000). His films routinely push the boundaries of commercial and art-house cinema, combining complex storytelling with stunning practical effects and IMAX cinematography. He has directed four of the top-grossing films of their respective years, and The Dark Knight is widely considered one of the greatest films ever made.",
+  "birthday": "1970-07-30",
+  "birthplace": "Westminster, London, England",
+  "knownFor": ["director", "writer", "producer"],
+  "roles": [
+    { "contentId": "content_008", "contentTitle": "The Dark Knight", "role": "director", "year": 2008 },
+    { "contentId": "content_001", "contentTitle": "Inception", "role": "director", "year": 2010 },
+    { "contentId": "content_002", "contentTitle": "Interstellar", "role": "director", "year": 2014 },
+    { "contentId": "content_013", "contentTitle": "Oppenheimer", "role": "director", "year": 2023 }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "nm0634240", "url": "https://www.imdb.com/name/nm0634240/" },
+    { "source": "tmdb", "id": "525" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

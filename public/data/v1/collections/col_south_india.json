@@ -1,0 +1,40 @@
+{
+  "id": "col_south_india",
+  "name": "South Indian Epics",
+  "slug": "south-india",
+  "tagline": "Scale, spectacle, and soul from the subcontinent.",
+  "description": "The most ambitious productions from South Indian cinema — Baahubali, RRR, and KGF — that redefined what Indian films could achieve on a global stage. These Telugu and Kannada epics broke box office records, went global on Netflix and Amazon Prime, and earned acclaim from audiences and critics worldwide.",
+  "heroContentId": "content_006",
+  "color": "#FF6B35",
+  "tags": ["Telugu", "Kannada", "epic", "action", "Indian cinema", "SS Rajamouli"],
+  "curator": "MOVI Editorial",
+  "contentCount": 3,
+  "averageRating": 8.1,
+  "totalRuntime": 509,
+  "parts": [
+    {
+      "contentId": "content_005",
+      "title": "Baahubali: The Beginning",
+      "year": 2015,
+      "order": 1,
+      "posterPath": "https://image.tmdb.org/t/p/w500/3gMpMCiCOl7DdEMJE3ioAHlU7RM.jpg",
+      "rating": 8.1
+    },
+    {
+      "contentId": "content_011",
+      "title": "KGF: Chapter 2",
+      "year": 2022,
+      "order": 2,
+      "posterPath": "https://image.tmdb.org/t/p/w500/4ICNIQ9cVVN5UFq3cOKCY6nL3Ke.jpg",
+      "rating": 8.1
+    },
+    {
+      "contentId": "content_006",
+      "title": "RRR",
+      "year": 2022,
+      "order": 3,
+      "posterPath": "https://image.tmdb.org/t/p/w500/nEufeZlyAOLqO2brrs0yeF1lgXO.jpg",
+      "rating": 8.0
+    }
+  ]
+}

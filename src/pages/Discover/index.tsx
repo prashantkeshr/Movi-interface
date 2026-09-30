@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { Globe, Film, Tv, BookOpen, Sparkles } from 'lucide-react'
+import { Globe, Film, Tv, BookOpen, Sparkles, Layers } from 'lucide-react'
 import type { SearchIndexEntry } from '@/types'
 import { ContentCard } from '@/components/content/ContentCard'
 import { getTopContent, getByGenre } from '@/services/searchEngine'
+import { loadCollectionIndex } from '@/services/dataLoader'
+import type { CollectionSummary } from '@/services/intelligenceEngine'
 
 const GENRES = [
   { name: 'Action', emoji: '💥' },
@@ -33,11 +35,13 @@ export function DiscoverPage() {
   const [top, setTop] = useState<SearchIndexEntry[]>([])
   const [actionItems, setActionItems] = useState<SearchIndexEntry[]>([])
   const [dramaItems, setDramaItems] = useState<SearchIndexEntry[]>([])
+  const [collections, setCollections] = useState<CollectionSummary[]>([])
 
   useEffect(() => {
     setTop(getTopContent(12))
     setActionItems(getByGenre('Action', 6))
     setDramaItems(getByGenre('Drama', 6))
+    loadCollectionIndex().then(setCollections).catch(() => {})
   }, [])
 
   return (
@@ -73,6 +77,74 @@ export function DiscoverPage() {
             ))}
           </div>
         </section>
+
+        {/* Curated Collections */}
+        {collections.length > 0 && (
+          <section className="mb-12">
+            <h2 className="text-xl font-semibold text-[var(--text-primary)] mb-4">
+              <span className="flex items-center gap-2">
+                <Layers size={18} className="text-[var(--accent)]" />
+                Curated Collections
+              </span>
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {collections.map((col) => (
+                <Link
+                  key={col.id}
+                  to={`/collection/${col.id}`}
+                  className="relative overflow-hidden rounded-[var(--radius-xl)]
+                    bg-[var(--bg-card)] border border-[var(--border-light)]
+                    hover:border-[var(--border)] transition-all group p-5 flex flex-col gap-3"
+                  style={{ borderLeft: `3px solid ${col.color ?? 'var(--accent)'}` }}
+                >
+                  {/* Header row */}
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="min-w-0">
+                      <h3 className="font-semibold text-[var(--text-primary)]
+                        group-hover:text-[var(--accent)] transition-colors leading-snug">
+                        {col.name}
+                      </h3>
+                      {col.tagline && (
+                        <p className="text-xs italic text-[var(--text-muted)] mt-0.5 line-clamp-1">
+                          "{col.tagline}"
+                        </p>
+                      )}
+                    </div>
+                    <div className="flex-shrink-0 text-right">
+                      <span className="text-lg font-bold" style={{ color: col.color ?? 'var(--accent)' }}>
+                        {col.contentCount}
+                      </span>
+                      <p className="text-[10px] text-[var(--text-muted)]">films</p>
+                    </div>
+                  </div>
+
+                  {/* Poster strip */}
+                  <div className="flex gap-1.5">
+                    {Array.from({ length: Math.min(col.contentCount, 4) }).map((_, i) => (
+                      <div
+                        key={i}
+                        className="flex-1 rounded-[var(--radius)] overflow-hidden bg-[var(--bg-surface)]"
+                        style={{ aspectRatio: '2/3' }}
+                      />
+                    ))}
+                  </div>
+
+                  {/* Stats */}
+                  <div className="flex items-center gap-4 text-xs text-[var(--text-muted)]">
+                    {col.averageRating && (
+                      <span>★ {col.averageRating.toFixed(1)} avg</span>
+                    )}
+                    {col.totalRuntime && (
+                      <span>
+                        {Math.floor(col.totalRuntime / 60)}h {col.totalRuntime % 60}m total
+                      </span>
+                    )}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Browse by Market */}
         <section className="mb-12">

@@ -1,0 +1,18 @@
+{
+  "id": "person_028",
+  "name": "Aamir Khan",
+  "aliases": ["Aamir", "Mr. Perfectionist", "आमिर खान"],
+  "biography": "Aamir Khan Hussain is an Indian actor, filmmaker, and television presenter known for his perfectionist approach to every project — earning him the nickname 'Mr. Perfectionist of Bollywood'. Born in Mumbai in 1965, he has starred in some of the most commercially successful and critically acclaimed Hindi films of all time. As both actor and producer, he has been instrumental in pushing the boundaries of mainstream Indian cinema, championing socially relevant stories with mass appeal. 3 Idiots and Dangal remain two of the highest-grossing Indian films ever made.",
+  "birthday": "1965-03-14",
+  "birthplace": "Mumbai, Maharashtra, India",
+  "knownFor": ["actor", "producer", "director"],
+  "roles": [
+    { "contentId": "content_007", "contentTitle": "3 Idiots", "role": "actor", "character": "Ranchoddas 'Rancho' Shamaldas Chanchad", "year": 2009 },
+    { "contentId": "content_009", "contentTitle": "Dangal", "role": "actor", "character": "Mahavir Singh Phogat", "year": 2016 }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "nm0005716", "url": "https://www.imdb.com/name/nm0005716/" },
+    { "source": "tmdb", "id": "31778" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}
