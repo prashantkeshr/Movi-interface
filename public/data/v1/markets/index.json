@@ -1,0 +1,68 @@
+[
+  {
+    "id": "IN",
+    "name": "India",
+    "isoCode": "IN",
+    "region": "South Asia",
+    "continent": "Asia",
+    "languages": ["hi", "en", "te", "ta", "bn", "mr", "gu", "kn", "ml", "pa"],
+    "currency": "INR",
+    "timezone": "Asia/Kolkata",
+    "aliases": ["भारत", "Bharat", "Hindustan"]
+  },
+  {
+    "id": "US",
+    "name": "United States",
+    "isoCode": "US",
+    "region": "North America",
+    "continent": "Americas",
+    "languages": ["en", "es"],
+    "currency": "USD",
+    "timezone": "America/New_York",
+    "aliases": ["USA", "America", "United States of America"]
+  },
+  {
+    "id": "GB",
+    "name": "United Kingdom",
+    "isoCode": "GB",
+    "region": "Western Europe",
+    "continent": "Europe",
+    "languages": ["en"],
+    "currency": "GBP",
+    "timezone": "Europe/London",
+    "aliases": ["UK", "Britain", "Great Britain", "England"]
+  },
+  {
+    "id": "JP",
+    "name": "Japan",
+    "isoCode": "JP",
+    "region": "East Asia",
+    "continent": "Asia",
+    "languages": ["ja"],
+    "currency": "JPY",
+    "timezone": "Asia/Tokyo",
+    "aliases": ["日本", "Nihon", "Nippon"]
+  },
+  {
+    "id": "KR",
+    "name": "South Korea",
+    "isoCode": "KR",
+    "region": "East Asia",
+    "continent": "Asia",
+    "languages": ["ko"],
+    "currency": "KRW",
+    "timezone": "Asia/Seoul",
+    "aliases": ["Korea", "대한민국", "Republic of Korea"]
+  },
+  {
+    "id": "AU",
+    "name": "Australia",
+    "isoCode": "AU",
+    "region": "Oceania",
+    "continent": "Oceania",
+    "languages": ["en"],
+    "currency": "AUD",
+    "timezone": "Australia/Sydney",
+    "aliases": ["Aus", "Down Under"]
+  }
+]

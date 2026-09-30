@@ -1,0 +1,67 @@
+{
+  "version": "v1",
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-30T00:00:00.000Z",
+  "contentCount": 15,
+  "peopleCount": 24,
+  "providerCount": 8,
+  "marketCount": 6,
+  "availabilityCount": 42,
+  "datasets": {
+    "content_index": {
+      "path": "/data/v1/search/content-index.json",
+      "count": 15,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    },
+    "providers": {
+      "path": "/data/v1/providers/index.json",
+      "count": 8,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    },
+    "markets": {
+      "path": "/data/v1/markets/index.json",
+      "count": 6,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    },
+    "genres": {
+      "path": "/data/v1/genres.json",
+      "count": 20,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    }
+  },
+  "searchIndexes": {
+    "main": {
+      "path": "/data/v1/search/index.json",
+      "type": "unified",
+      "entryCount": 39,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    }
+  },
+  "marketPacks": {
+    "IN": {
+      "market": "IN",
+      "path": "/data/v1/availability/IN.json",
+      "contentCount": 15,
+      "providerCount": 5,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    },
+    "US": {
+      "market": "US",
+      "path": "/data/v1/availability/US.json",
+      "contentCount": 15,
+      "providerCount": 6,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    },
+    "GB": {
+      "market": "GB",
+      "path": "/data/v1/availability/GB.json",
+      "contentCount": 12,
+      "providerCount": 5,
+      "lastUpdated": "2026-09-30T00:00:00.000Z"
+    }
+  },
+  "supportedMarkets": ["IN", "US", "GB", "JP", "KR", "AU"],
+  "supportedLanguages": ["en", "hi", "te", "ta", "ja", "ko", "fr", "de"],
+  "lastContentUpdate": "2026-09-30T00:00:00.000Z",
+  "lastAvailabilityUpdate": "2026-09-25T00:00:00.000Z"
+}

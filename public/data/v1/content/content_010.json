@@ -1,0 +1,63 @@
+{
+  "id": "content_010",
+  "type": "movie",
+  "title": "Avengers: Endgame",
+  "originalTitle": "Avengers: Endgame",
+  "year": 2019,
+  "runtime": 181,
+  "genres": ["Action", "Adventure", "Science Fiction"],
+  "languages": ["en"],
+  "countries": ["US"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+  "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe.",
+  "tagline": "Part of the journey is the end.",
+  "rating": 8.4,
+  "popularity": 100,
+  "franchise": "franchise_mcu",
+  "directors": ["person_037"],
+  "cast": [
+    { "personId": "person_038", "name": "Robert Downey Jr.", "character": "Tony Stark / Iron Man", "order": 1 },
+    { "personId": "person_039", "name": "Chris Evans", "character": "Steve Rogers / Captain America", "order": 2 },
+    { "personId": "person_040", "name": "Mark Ruffalo", "character": "Bruce Banner / Hulk", "order": 3 },
+    { "personId": "person_041", "name": "Chris Hemsworth", "character": "Thor", "order": 4 },
+    { "personId": "person_042", "name": "Scarlett Johansson", "character": "Natasha Romanoff / Black Widow", "order": 5 },
+    { "personId": "person_043", "name": "Jeremy Renner", "character": "Clint Barton / Hawkeye", "order": 6 }
+  ],
+  "productionCompanies": ["Marvel Studios"],
+  "keywords": ["marvel", "avengers", "time travel", "superhero", "universe", "thanos", "MCU"],
+  "certifications": [
+    { "market": "US", "rating": "PG-13" },
+    { "market": "GB", "rating": "12A" },
+    { "market": "IN", "rating": "UA" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.4, "scale": 10, "count": 1200000 },
+    { "source": "Rotten Tomatoes", "value": 94, "scale": 100 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_010_1",
+      "contentId": "content_010",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "en",
+      "site": "youtube",
+      "key": "TcMBFSGVi1c",
+      "official": true,
+      "publishedAt": "2019-03-14T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt4154796", "url": "https://www.imdb.com/title/tt4154796/" },
+    { "source": "tmdb", "id": "299534" }
+  ],
+  "releaseDates": [
+    { "market": "US", "date": "2019-04-26", "type": "theatrical" },
+    { "market": "IN", "date": "2019-04-26", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

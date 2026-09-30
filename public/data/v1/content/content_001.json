@@ -1,0 +1,64 @@
+{
+  "id": "content_001",
+  "type": "movie",
+  "title": "Inception",
+  "originalTitle": "Inception",
+  "year": 2010,
+  "runtime": 148,
+  "genres": ["Action", "Science Fiction", "Thriller"],
+  "languages": ["en"],
+  "countries": ["US", "GB"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+  "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets, is offered a chance to regain his old life as payment for the ultimate job: making an idea seem like the target's own.",
+  "tagline": "Your mind is the scene of the crime.",
+  "rating": 8.4,
+  "popularity": 98,
+  "alternativeTitles": ["Начало", "起源", "インセプション"],
+  "directors": ["person_001"],
+  "writers": ["person_001"],
+  "cast": [
+    { "personId": "person_002", "name": "Leonardo DiCaprio", "character": "Dom Cobb", "order": 1 },
+    { "personId": "person_003", "name": "Joseph Gordon-Levitt", "character": "Arthur", "order": 2 },
+    { "personId": "person_004", "name": "Elliot Page", "character": "Ariadne", "order": 3 },
+    { "personId": "person_005", "name": "Tom Hardy", "character": "Eames", "order": 4 },
+    { "personId": "person_006", "name": "Ken Watanabe", "character": "Saito", "order": 5 }
+  ],
+  "productionCompanies": ["Legendary Entertainment", "Syncopy"],
+  "keywords": ["dream", "heist", "subconscious", "mind", "reality", "layers", "espionage"],
+  "certifications": [
+    { "market": "US", "rating": "PG-13" },
+    { "market": "GB", "rating": "12A" },
+    { "market": "IN", "rating": "UA" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.8, "scale": 10, "count": 2400000 },
+    { "source": "Rotten Tomatoes", "value": 87, "scale": 100 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_001_1",
+      "contentId": "content_001",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "en",
+      "site": "youtube",
+      "key": "YoHD9XEInc0",
+      "official": true,
+      "publishedAt": "2010-05-10T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt1375666", "url": "https://www.imdb.com/title/tt1375666/" },
+    { "source": "tmdb", "id": "27205" }
+  ],
+  "releaseDates": [
+    { "market": "US", "date": "2010-07-16", "type": "theatrical" },
+    { "market": "GB", "date": "2010-07-16", "type": "theatrical" },
+    { "market": "IN", "date": "2010-07-16", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "url": "https://www.themoviedb.org", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

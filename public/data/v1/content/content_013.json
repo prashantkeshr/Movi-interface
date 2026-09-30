@@ -1,0 +1,61 @@
+{
+  "id": "content_013",
+  "type": "movie",
+  "title": "Oppenheimer",
+  "originalTitle": "Oppenheimer",
+  "year": 2023,
+  "runtime": 180,
+  "genres": ["Biography", "Drama", "History", "Thriller"],
+  "languages": ["en"],
+  "countries": ["US", "GB"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
+  "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during the Manhattan Project.",
+  "tagline": "The world forever changes.",
+  "rating": 8.3,
+  "popularity": 98,
+  "directors": ["person_001"],
+  "writers": ["person_001"],
+  "cast": [
+    { "personId": "person_052", "name": "Cillian Murphy", "character": "J. Robert Oppenheimer", "order": 1 },
+    { "personId": "person_053", "name": "Emily Blunt", "character": "Katherine 'Kitty' Oppenheimer", "order": 2 },
+    { "personId": "person_054", "name": "Matt Damon", "character": "General Leslie Groves Jr.", "order": 3 },
+    { "personId": "person_055", "name": "Robert Downey Jr.", "character": "Lewis Strauss", "order": 4 }
+  ],
+  "productionCompanies": ["Universal Pictures", "Syncopy", "Atlas Entertainment"],
+  "keywords": ["atomic bomb", "Manhattan Project", "World War II", "nuclear", "scientist", "biography"],
+  "certifications": [
+    { "market": "US", "rating": "R" },
+    { "market": "GB", "rating": "15" },
+    { "market": "IN", "rating": "UA" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.3, "scale": 10, "count": 750000 },
+    { "source": "Rotten Tomatoes", "value": 93, "scale": 100 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_013_1",
+      "contentId": "content_013",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "en",
+      "site": "youtube",
+      "key": "uYPbbksJxIg",
+      "official": true,
+      "publishedAt": "2023-05-09T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt15398776", "url": "https://www.imdb.com/title/tt15398776/" },
+    { "source": "tmdb", "id": "872585" }
+  ],
+  "releaseDates": [
+    { "market": "US", "date": "2023-07-21", "type": "theatrical" },
+    { "market": "IN", "date": "2023-07-21", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

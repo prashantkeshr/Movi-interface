@@ -1,0 +1,55 @@
+{
+  "id": "content_015",
+  "type": "documentary",
+  "title": "My Octopus Teacher",
+  "originalTitle": "My Octopus Teacher",
+  "year": 2020,
+  "runtime": 85,
+  "genres": ["Documentary", "Nature"],
+  "languages": ["en"],
+  "countries": ["ZA"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/tnLMDlI6VBxQTW8hcJjCKnIVFzI.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/u6EFVUEXFkmqFHJpYFSMv1gKIo1.jpg",
+  "overview": "A filmmaker forges an unusual friendship with an octopus living in a South African kelp forest, learning as the animal helps guide him through a rough period in his life.",
+  "tagline": "A wildly intimate encounter.",
+  "rating": 8.1,
+  "popularity": 82,
+  "directors": ["person_059"],
+  "cast": [
+    { "personId": "person_060", "name": "Craig Foster", "character": "Himself", "order": 1 }
+  ],
+  "productionCompanies": ["Off the Fence", "Netflix"],
+  "keywords": ["ocean", "octopus", "nature", "wildlife", "South Africa", "documentary", "sea"],
+  "certifications": [
+    { "market": "US", "rating": "PG" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.1, "scale": 10, "count": 45000 },
+    { "source": "Rotten Tomatoes", "value": 100, "scale": 100 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_015_1",
+      "contentId": "content_015",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "en",
+      "site": "youtube",
+      "key": "3s0LTDhqe5A",
+      "official": true,
+      "publishedAt": "2020-09-07T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt12888462", "url": "https://www.imdb.com/title/tt12888462/" },
+    { "source": "tmdb", "id": "717354" }
+  ],
+  "releaseDates": [
+    { "market": "US", "date": "2020-09-07", "type": "streaming" },
+    { "market": "IN", "date": "2020-09-07", "type": "streaming" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

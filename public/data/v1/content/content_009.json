@@ -1,0 +1,61 @@
+{
+  "id": "content_009",
+  "type": "movie",
+  "title": "Dangal",
+  "originalTitle": "दंगल",
+  "year": 2016,
+  "runtime": 161,
+  "genres": ["Biography", "Drama", "Sport"],
+  "languages": ["hi"],
+  "countries": ["IN"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/wePBnOgpFGLAJnmehT2DGGfvNiB.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/c7wDUmMEJnLqxYqGMoIJUWWMbFV.jpg",
+  "overview": "Mahavir Singh Phogat, a former wrestler, decides to fulfill his dream of winning a gold medal for his country by training his two daughters Geeta and Babita despite several social obstacles.",
+  "tagline": "Our daughters are no less.",
+  "rating": 8.4,
+  "popularity": 89,
+  "localizedTitles": [
+    { "language": "hi", "title": "दंगल", "script": "devanagari" },
+    { "language": "en", "title": "Dangal" }
+  ],
+  "directors": ["person_027"],
+  "writers": ["person_027"],
+  "cast": [
+    { "personId": "person_028", "name": "Aamir Khan", "character": "Mahavir Singh Phogat", "order": 1 },
+    { "personId": "person_035", "name": "Fatima Sana Shaikh", "character": "Geeta Phogat", "order": 2 },
+    { "personId": "person_036", "name": "Sanya Malhotra", "character": "Babita Kumari", "order": 3 }
+  ],
+  "productionCompanies": ["Aamir Khan Productions", "Walt Disney Pictures India"],
+  "keywords": ["wrestling", "sports", "women empowerment", "Bollywood", "India", "champion", "father-daughter"],
+  "certifications": [
+    { "market": "IN", "rating": "U" },
+    { "market": "US", "rating": "PG" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.4, "scale": 10, "count": 230000 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_009_1",
+      "contentId": "content_009",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "hi",
+      "site": "youtube",
+      "key": "x_7YlGv9u1g",
+      "official": true,
+      "publishedAt": "2016-11-01T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt5074352", "url": "https://www.imdb.com/title/tt5074352/" },
+    { "source": "tmdb", "id": "352208" }
+  ],
+  "releaseDates": [
+    { "market": "IN", "date": "2016-12-23", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

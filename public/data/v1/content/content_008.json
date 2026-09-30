@@ -1,0 +1,63 @@
+{
+  "id": "content_008",
+  "type": "movie",
+  "title": "The Dark Knight",
+  "originalTitle": "The Dark Knight",
+  "year": 2008,
+  "runtime": 152,
+  "genres": ["Action", "Crime", "Drama", "Thriller"],
+  "languages": ["en"],
+  "countries": ["US", "GB"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/hkBaDkMWbLaf8B1lsWsKX7Ew3Xq.jpg",
+  "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+  "tagline": "Why So Serious?",
+  "rating": 9.0,
+  "popularity": 99,
+  "franchise": "franchise_batman",
+  "directors": ["person_001"],
+  "writers": ["person_001"],
+  "cast": [
+    { "personId": "person_032", "name": "Christian Bale", "character": "Bruce Wayne / Batman", "order": 1 },
+    { "personId": "person_033", "name": "Heath Ledger", "character": "The Joker", "order": 2 },
+    { "personId": "person_034", "name": "Aaron Eckhart", "character": "Harvey Dent / Two-Face", "order": 3 },
+    { "personId": "person_010", "name": "Michael Caine", "character": "Alfred", "order": 4 }
+  ],
+  "productionCompanies": ["Warner Bros. Pictures", "Legendary Entertainment", "Syncopy"],
+  "keywords": ["batman", "joker", "gotham", "superhero", "vigilante", "crime", "chaos"],
+  "certifications": [
+    { "market": "US", "rating": "PG-13" },
+    { "market": "GB", "rating": "12A" },
+    { "market": "IN", "rating": "UA" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 9.0, "scale": 10, "count": 2800000 },
+    { "source": "Rotten Tomatoes", "value": 94, "scale": 100 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_008_1",
+      "contentId": "content_008",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "en",
+      "site": "youtube",
+      "key": "EXeTwQWrcwY",
+      "official": true,
+      "publishedAt": "2008-05-09T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt0468569", "url": "https://www.imdb.com/title/tt0468569/" },
+    { "source": "tmdb", "id": "155" }
+  ],
+  "releaseDates": [
+    { "market": "US", "date": "2008-07-18", "type": "theatrical" },
+    { "market": "GB", "date": "2008-07-25", "type": "theatrical" },
+    { "market": "IN", "date": "2008-07-18", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

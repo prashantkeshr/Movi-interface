@@ -1,0 +1,66 @@
+{
+  "id": "content_005",
+  "type": "movie",
+  "title": "Baahubali: The Beginning",
+  "originalTitle": "బాహుబలి: ద బిగినింగ్",
+  "year": 2015,
+  "runtime": 159,
+  "genres": ["Action", "Drama", "Fantasy"],
+  "languages": ["te", "ta", "hi", "ml"],
+  "countries": ["IN"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/3gMpMCiCOl7DdEMJE3ioAHlU7RM.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/a4mMFbPCmGm5pFt7aYTHgPn0cJl.jpg",
+  "overview": "In ancient India, an adventurous and daring man becomes involved in a decades old feud between two warring peoples. As he seeks answers to questions about his mysterious past, he discovers he is the heir to a great kingdom.",
+  "tagline": "The Battle Begins",
+  "rating": 8.1,
+  "popularity": 92,
+  "localizedTitles": [
+    { "language": "te", "title": "బాహుబలి: ద బిగినింగ్", "script": "telugu" },
+    { "language": "ta", "title": "பாகுபலி: தொடக்கம்", "script": "tamil" },
+    { "language": "hi", "title": "बाहुबली: द बिगिनिंग", "script": "devanagari" },
+    { "language": "en", "title": "Baahubali: The Beginning" }
+  ],
+  "alternativeTitles": ["Bahubali", "Bahubali: The Beginning", "Baahubali Part 1"],
+  "franchise": "franchise_baahubali",
+  "directors": ["person_019"],
+  "writers": ["person_019", "person_020"],
+  "cast": [
+    { "personId": "person_021", "name": "Prabhas", "character": "Mahendra Baahubali / Amarendra Baahubali", "order": 1 },
+    { "personId": "person_022", "name": "Rana Daggubati", "character": "Bhallaladeva", "order": 2 },
+    { "personId": "person_023", "name": "Anushka Shetty", "character": "Devasena", "order": 3 },
+    { "personId": "person_024", "name": "Tamannaah Bhatia", "character": "Avanthika", "order": 4 }
+  ],
+  "productionCompanies": ["Arka Media Works"],
+  "keywords": ["ancient India", "epic", "war", "kingdom", "waterfall", "mythology", "Telugu cinema"],
+  "certifications": [
+    { "market": "IN", "rating": "UA" },
+    { "market": "US", "rating": "NR" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.1, "scale": 10, "count": 300000 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_005_1",
+      "contentId": "content_005",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "te",
+      "site": "youtube",
+      "key": "0WnR_a63oRk",
+      "official": true,
+      "publishedAt": "2015-05-01T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt2802144", "url": "https://www.imdb.com/title/tt2802144/" },
+    { "source": "tmdb", "id": "283552" }
+  ],
+  "releaseDates": [
+    { "market": "IN", "date": "2015-07-10", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

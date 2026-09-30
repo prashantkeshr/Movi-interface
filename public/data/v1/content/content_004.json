@@ -1,0 +1,66 @@
+{
+  "id": "content_004",
+  "type": "animation",
+  "title": "Spirited Away",
+  "originalTitle": "千と千尋の神隠し",
+  "year": 2001,
+  "runtime": 125,
+  "genres": ["Animation", "Adventure", "Family", "Fantasy"],
+  "languages": ["ja"],
+  "countries": ["JP"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/39wmItIWsg5siqXU7nm23Dj7GEC.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/bSXfU4dwZyBA1vMmXvejdRXBvuF.jpg",
+  "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+  "tagline": "The tunnel led Chihiro to a magical world.",
+  "rating": 9.0,
+  "popularity": 96,
+  "localizedTitles": [
+    { "language": "ja", "title": "千と千尋の神隠し", "script": "kanji" },
+    { "language": "en", "title": "Spirited Away" },
+    { "language": "hi", "title": "स्पिरिटेड अवे" }
+  ],
+  "alternativeTitles": ["Sen to Chihiro no Kamikakushi", "Sen and Chihiro's Spiriting Away"],
+  "directors": ["person_016"],
+  "writers": ["person_016"],
+  "cast": [
+    { "personId": "person_017", "name": "Daveigh Chase", "character": "Chihiro (voice, en)", "order": 1 },
+    { "personId": "person_018", "name": "Suzanne Pleshette", "character": "Yubaba (voice, en)", "order": 2 }
+  ],
+  "productionCompanies": ["Studio Ghibli"],
+  "keywords": ["spirit world", "spirits", "coming of age", "anime", "magic", "bath house", "Japan"],
+  "certifications": [
+    { "market": "US", "rating": "PG" },
+    { "market": "GB", "rating": "PG" },
+    { "market": "JP", "rating": "G" },
+    { "market": "IN", "rating": "U" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 9.3, "scale": 10, "count": 780000 },
+    { "source": "Rotten Tomatoes", "value": 97, "scale": 100 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_004_1",
+      "contentId": "content_004",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "en",
+      "site": "youtube",
+      "key": "ByXuk9QqQkk",
+      "official": true,
+      "publishedAt": "2003-01-01T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt0245429", "url": "https://www.imdb.com/title/tt0245429/" },
+    { "source": "tmdb", "id": "129" }
+  ],
+  "releaseDates": [
+    { "market": "JP", "date": "2001-07-20", "type": "theatrical" },
+    { "market": "US", "date": "2003-03-28", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

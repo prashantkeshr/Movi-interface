@@ -1,0 +1,68 @@
+{
+  "id": "content_003",
+  "type": "movie",
+  "title": "Parasite",
+  "originalTitle": "기생충",
+  "year": 2019,
+  "runtime": 132,
+  "genres": ["Thriller", "Drama", "Comedy"],
+  "languages": ["ko"],
+  "countries": ["KR"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/ApiBzeaa95TNYliSbQ8pJv4Fje7.jpg",
+  "overview": "All unemployed, Ki-taek's family takes a peculiar interest in the wealthy and glamorous Park family. After his son Ki-woo is recommended for a job at their home, the unemployed family schemes to become employed by the Parks one by one.",
+  "tagline": "Act like you own the place.",
+  "rating": 8.5,
+  "popularity": 95,
+  "localizedTitles": [
+    { "language": "ko", "title": "기생충", "script": "hangul" },
+    { "language": "en", "title": "Parasite" },
+    { "language": "hi", "title": "पैरासाइट" }
+  ],
+  "directors": ["person_011"],
+  "writers": ["person_011"],
+  "cast": [
+    { "personId": "person_012", "name": "Song Kang-ho", "character": "Ki-taek", "order": 1 },
+    { "personId": "person_013", "name": "Lee Sun-kyun", "character": "Mr. Park", "order": 2 },
+    { "personId": "person_014", "name": "Cho Yeo-jeong", "character": "Yeon-kyo", "order": 3 },
+    { "personId": "person_015", "name": "Choi Woo-shik", "character": "Ki-woo", "order": 4 }
+  ],
+  "productionCompanies": ["Barunson E&A"],
+  "keywords": ["class", "inequality", "wealth", "dark comedy", "family", "social commentary"],
+  "certifications": [
+    { "market": "US", "rating": "R" },
+    { "market": "GB", "rating": "15" },
+    { "market": "IN", "rating": "A" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.5, "scale": 10, "count": 850000 },
+    { "source": "Rotten Tomatoes", "value": 99, "scale": 100 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_003_1",
+      "contentId": "content_003",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "en",
+      "site": "youtube",
+      "key": "SEUXfv87Wpk",
+      "official": true,
+      "publishedAt": "2019-07-25T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt6751668", "url": "https://www.imdb.com/title/tt6751668/" },
+    { "source": "tmdb", "id": "496243" }
+  ],
+  "releaseDates": [
+    { "market": "KR", "date": "2019-05-30", "type": "theatrical" },
+    { "market": "US", "date": "2019-10-11", "type": "theatrical" },
+    { "market": "GB", "date": "2020-02-07", "type": "theatrical" },
+    { "market": "IN", "date": "2019-11-01", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

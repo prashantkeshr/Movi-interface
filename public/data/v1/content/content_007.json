@@ -1,0 +1,63 @@
+{
+  "id": "content_007",
+  "type": "movie",
+  "title": "3 Idiots",
+  "originalTitle": "3 Idiots",
+  "year": 2009,
+  "runtime": 170,
+  "genres": ["Comedy", "Drama"],
+  "languages": ["hi"],
+  "countries": ["IN"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/66A9MqXOyVFCssoloscw79z8Tew.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/7NKgoBTjnXHoUAHsw0oZ17aTrAL.jpg",
+  "overview": "Two friends are on a quest to find a lost colleague. On this journey they encounter a long forgotten bet, a wedding, and a funeral as they recall their college days in the past.",
+  "tagline": "All Izz Well",
+  "rating": 8.4,
+  "popularity": 91,
+  "localizedTitles": [
+    { "language": "hi", "title": "3 इडियट्स", "script": "devanagari" },
+    { "language": "en", "title": "3 Idiots" }
+  ],
+  "alternativeTitles": ["Three Idiots", "Tin Pagla"],
+  "directors": ["person_027"],
+  "writers": ["person_027"],
+  "cast": [
+    { "personId": "person_028", "name": "Aamir Khan", "character": "Ranchoddas 'Rancho' Shamaldas Chanchad", "order": 1 },
+    { "personId": "person_029", "name": "R. Madhavan", "character": "Farhan Qureshi", "order": 2 },
+    { "personId": "person_030", "name": "Sharman Joshi", "character": "Raju Rastogi", "order": 3 },
+    { "personId": "person_031", "name": "Kareena Kapoor", "character": "Pia Sahastrabuddhe", "order": 4 }
+  ],
+  "productionCompanies": ["Vinod Chopra Films", "Reliance BIG Pictures"],
+  "keywords": ["college", "education", "friendship", "Bollywood", "comedy", "India", "engineering"],
+  "certifications": [
+    { "market": "IN", "rating": "UA" },
+    { "market": "US", "rating": "PG-13" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.4, "scale": 10, "count": 370000 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_007_1",
+      "contentId": "content_007",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "hi",
+      "site": "youtube",
+      "key": "xvszmNXdM4w",
+      "official": true,
+      "publishedAt": "2009-11-01T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt1187043", "url": "https://www.imdb.com/title/tt1187043/" },
+    { "source": "tmdb", "id": "20453" }
+  ],
+  "releaseDates": [
+    { "market": "IN", "date": "2009-12-25", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

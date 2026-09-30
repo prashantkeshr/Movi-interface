@@ -1,0 +1,63 @@
+{
+  "id": "content_006",
+  "type": "movie",
+  "title": "RRR",
+  "originalTitle": "RRR",
+  "year": 2022,
+  "runtime": 179,
+  "genres": ["Action", "Drama", "History"],
+  "languages": ["te", "ta", "hi", "ml", "kn"],
+  "countries": ["IN"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/nEufeZlyAOLqO2brrs0yeF1lgXO.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/3HJ6JFHrMDEoWIE4AudWWmpj8Ux.jpg",
+  "overview": "A fictional story about two legendary revolutionaries and their journey far away from home before they began fighting for their country in the 1920s.",
+  "tagline": "Rise. Roar. Revolt.",
+  "rating": 8.0,
+  "popularity": 93,
+  "localizedTitles": [
+    { "language": "te", "title": "RRR", "script": "telugu" },
+    { "language": "hi", "title": "RRR", "script": "devanagari" },
+    { "language": "en", "title": "RRR" }
+  ],
+  "alternativeTitles": ["Roudram Ranam Rudhiram", "Rise Roar Revolt", "Raththam Ranam Rowthiram"],
+  "directors": ["person_019"],
+  "writers": ["person_019"],
+  "cast": [
+    { "personId": "person_025", "name": "N. T. Rama Rao Jr.", "character": "Komaram Bheem", "order": 1 },
+    { "personId": "person_026", "name": "Ram Charan", "character": "Alluri Sitarama Raju", "order": 2 }
+  ],
+  "productionCompanies": ["DVV Entertainment"],
+  "keywords": ["freedom fighters", "British colonial India", "friendship", "action", "historical", "Telugu cinema"],
+  "certifications": [
+    { "market": "IN", "rating": "UA" },
+    { "market": "US", "rating": "NR" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 7.9, "scale": 10, "count": 210000 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_006_1",
+      "contentId": "content_006",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "te",
+      "site": "youtube",
+      "key": "f_vbAtFSEc0",
+      "official": true,
+      "publishedAt": "2021-12-22T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt8178634", "url": "https://www.imdb.com/title/tt8178634/" },
+    { "source": "tmdb", "id": "759976" }
+  ],
+  "releaseDates": [
+    { "market": "IN", "date": "2022-03-25", "type": "theatrical" },
+    { "market": "US", "date": "2022-03-25", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

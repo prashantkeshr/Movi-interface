@@ -1,0 +1,60 @@
+{
+  "id": "content_012",
+  "type": "movie",
+  "title": "Avatar",
+  "originalTitle": "Avatar",
+  "year": 2009,
+  "runtime": 162,
+  "genres": ["Action", "Adventure", "Science Fiction"],
+  "languages": ["en"],
+  "countries": ["US"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/o0s4XsEDfDlvit5pDRKjzXR4pp2.jpg",
+  "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+  "tagline": "Enter the World of Pandora.",
+  "rating": 7.9,
+  "popularity": 96,
+  "franchise": "franchise_avatar",
+  "directors": ["person_048"],
+  "cast": [
+    { "personId": "person_049", "name": "Sam Worthington", "character": "Jake Sully", "order": 1 },
+    { "personId": "person_050", "name": "Zoe Saldana", "character": "Neytiri", "order": 2 },
+    { "personId": "person_051", "name": "Sigourney Weaver", "character": "Dr. Grace Augustine", "order": 3 }
+  ],
+  "productionCompanies": ["Lightstorm Entertainment", "Ingenious Film Partners"],
+  "keywords": ["pandora", "aliens", "na'vi", "3D", "ecology", "colonialism", "science fiction"],
+  "certifications": [
+    { "market": "US", "rating": "PG-13" },
+    { "market": "GB", "rating": "12A" },
+    { "market": "IN", "rating": "UA" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 7.9, "scale": 10, "count": 1300000 },
+    { "source": "Rotten Tomatoes", "value": 82, "scale": 100 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_012_1",
+      "contentId": "content_012",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "en",
+      "site": "youtube",
+      "key": "5PSNL1qE6VY",
+      "official": true,
+      "publishedAt": "2009-08-20T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt0499549", "url": "https://www.imdb.com/title/tt0499549/" },
+    { "source": "tmdb", "id": "19995" }
+  ],
+  "releaseDates": [
+    { "market": "US", "date": "2009-12-18", "type": "theatrical" },
+    { "market": "IN", "date": "2009-12-18", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

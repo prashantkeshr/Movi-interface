@@ -1,0 +1,61 @@
+{
+  "id": "content_002",
+  "type": "movie",
+  "title": "Interstellar",
+  "originalTitle": "Interstellar",
+  "year": 2014,
+  "runtime": 169,
+  "genres": ["Adventure", "Drama", "Science Fiction"],
+  "languages": ["en"],
+  "countries": ["US", "GB", "CA"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+  "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival as Earth faces environmental catastrophe.",
+  "tagline": "Mankind was born on Earth. It was never meant to die here.",
+  "rating": 8.7,
+  "popularity": 97,
+  "directors": ["person_001"],
+  "writers": ["person_001"],
+  "cast": [
+    { "personId": "person_007", "name": "Matthew McConaughey", "character": "Cooper", "order": 1 },
+    { "personId": "person_008", "name": "Anne Hathaway", "character": "Brand", "order": 2 },
+    { "personId": "person_009", "name": "Jessica Chastain", "character": "Murph", "order": 3 },
+    { "personId": "person_010", "name": "Michael Caine", "character": "Professor Brand", "order": 4 }
+  ],
+  "productionCompanies": ["Legendary Entertainment", "Syncopy", "Lynda Obst Productions"],
+  "keywords": ["space", "wormhole", "black hole", "gravity", "time", "survival", "father-daughter"],
+  "certifications": [
+    { "market": "US", "rating": "PG-13" },
+    { "market": "GB", "rating": "12A" },
+    { "market": "IN", "rating": "UA" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.7, "scale": 10, "count": 1900000 },
+    { "source": "Rotten Tomatoes", "value": 73, "scale": 100 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_002_1",
+      "contentId": "content_002",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "en",
+      "site": "youtube",
+      "key": "zSWdZVtXT7E",
+      "official": true,
+      "publishedAt": "2014-09-18T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt0816692", "url": "https://www.imdb.com/title/tt0816692/" },
+    { "source": "tmdb", "id": "157336" }
+  ],
+  "releaseDates": [
+    { "market": "US", "date": "2014-11-07", "type": "theatrical" },
+    { "market": "IN", "date": "2014-11-07", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "content_011",
+  "type": "movie",
+  "title": "KGF: Chapter 2",
+  "originalTitle": "KGF: Chapter 2",
+  "year": 2022,
+  "runtime": 168,
+  "genres": ["Action", "Crime", "Drama"],
+  "languages": ["kn", "te", "ta", "hi", "ml"],
+  "countries": ["IN"],
+  "posterPath": "https://image.tmdb.org/t/p/w500/4ICNIQ9cVVN5UFq3cOKCY6nL3Ke.jpg",
+  "backdropPath": "https://image.tmdb.org/t/p/w1280/pOEQiWQARNuBLGNdQAf6ZxZJ2k8.jpg",
+  "overview": "Rocky's story continues as he battles powerful enemies both in the KGF goldmine and outside it. With Adheera gone, bigger threats await him in the form of Ramika Sen and Inayat Khalil.",
+  "tagline": "The Empire Strikes Back.",
+  "rating": 8.1,
+  "popularity": 90,
+  "franchise": "franchise_kgf",
+  "localizedTitles": [
+    { "language": "kn", "title": "ಕೆಜಿಎಫ್: ಅಧ್ಯಾಯ ೨", "script": "kannada" },
+    { "language": "hi", "title": "KGF: अध्याय 2", "script": "devanagari" },
+    { "language": "en", "title": "KGF: Chapter 2" }
+  ],
+  "alternativeTitles": ["KGF Chapter 2", "KGF 2"],
+  "directors": ["person_044"],
+  "writers": ["person_044"],
+  "cast": [
+    { "personId": "person_045", "name": "Yash", "character": "Rocky", "order": 1 },
+    { "personId": "person_046", "name": "Sanjay Dutt", "character": "Adheera", "order": 2 },
+    { "personId": "person_047", "name": "Raveena Tandon", "character": "Ramika Sen", "order": 3 }
+  ],
+  "productionCompanies": ["Hombale Films"],
+  "keywords": ["gold mine", "Kannada cinema", "gangster", "action", "India", "power", "empire"],
+  "certifications": [
+    { "market": "IN", "rating": "UA" }
+  ],
+  "ratings": [
+    { "source": "IMDB", "value": 8.2, "scale": 10, "count": 180000 }
+  ],
+  "trailers": [
+    {
+      "id": "trailer_011_1",
+      "contentId": "content_011",
+      "name": "Official Trailer",
+      "type": "trailer",
+      "language": "kn",
+      "site": "youtube",
+      "key": "LBKKMc9DsjY",
+      "official": true,
+      "publishedAt": "2022-03-27T00:00:00.000Z"
+    }
+  ],
+  "externalIds": [
+    { "source": "imdb", "id": "tt10948940", "url": "https://www.imdb.com/title/tt10948940/" },
+    { "source": "tmdb", "id": "891699" }
+  ],
+  "releaseDates": [
+    { "market": "IN", "date": "2022-04-14", "type": "theatrical" }
+  ],
+  "sources": [
+    { "id": "tmdb", "name": "The Movie Database", "license": "CC BY-NC 4.0", "confidence": "high" }
+  ],
+  "lastUpdated": "2026-09-30T00:00:00.000Z"
+}
